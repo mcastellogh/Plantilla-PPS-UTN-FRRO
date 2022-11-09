@@ -1,0 +1,158 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Template license:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Adaptación para PPS UTN- FRRO por Marcelo Castello
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+11pt, % The default document font size, options: 10pt, 11pt, 12pt
+%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+%chapterinoneline,% Have the chapter title next to the number in one single line
+spanish,
+singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
+%draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
+%nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
+%liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
+%toctotoc, % Uncomment to add the main table of contents to the table of contents
+parskip, % Uncomment to add space between paragraphs
+codirector, % Uncomment to add a codirector to the title page
+headsepline, % Uncomment to get a line under the header
+]{MastersDoctoralThesis} % The class file specifying the document structure
+
+
+%----------------------------------------------------------------------------------------
+%	INFORMACIÓN DE LA PPS
+%----------------------------------------------------------------------------------------
+
+\thesistitle{Sistema de monitoreo de temperaturas en tiempo real para refrigeradores críticos de salud} % El título de la memoria, se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \ttitle
+
+% Nombre de la carrera, se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \degreename
+\posgrado{Carrera de Ingeniería Eléctrica} 
+
+
+\author{Juan Perez} % Tu nombre, se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \authorname
+
+\tutor{Esp. Ing. Marcelo Castello (UTN - FRRO)} % El nombre del tutor, se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \tutorname
+
+\codirector{Nombre del supervisor de campo (pertenencia)} % El nombre del supervisor de campo si lo hubiera, se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \codirname.  Para activar este campo se debe descomentar la opción "codirector" en el comando \documentclass, línea 23.
+
+\empresa{Nombre de la empresa/institución}
+
+\juradoUNO{Dr. Ing. Adrián Stacul (UTN, CITEDEF)} % Nombre y pertenencia del un jurado se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \jur1name
+\juradoDOS{Mg. Ing. Mara Fusco (UTN - FRH))} % Nombre y pertenencia del un jurado se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \jur2name
+%\juradoTRES{Esp. Ing. Lic. Pablo José Carlos Alonso Castillo (FCEyN UBA, FIUBA))} % Nombre y pertenencia del un jurado se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \jur3name
+
+\ciudad{ciudad de Rosario}
+
+\fechaINICIO{agosto de 2020}
+\fechaFINAL{agosto de 2021}
+
+
+\keywords{Sistemas embebidos, FIUBA} % Keywords for your thesis, print it elsewhere with \keywordnames
+
+
+\begin{document}
+
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
+
+
+%----------------------------------------------------------------------------------------
+%	RESUMEN - ABSTRACT 
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
+%
+%The Thesis Abstract is written here (and usually kept to just this page). The page is kept centered vertically so can expand into the blank space above the title too\ldots
+\centering
+
+En esta memoria se describe el diseño e implementación de un sistema de alertas y vigilancia de temperatura para freezers y heladeras que almacenan hemoproductos o especialidades medicinales. El mismo surge de la necesidad de la secretaría de salud pública de la municipalidad de Rosario de implementar un sistema de bajo costo para garantizar la cadena de frío de vacunas.
+
+En el trabajo se aplicaron conocimientos referidos a ciberseguridad en aplicaciones, infraestructura y protocolos de comunicación para dispositivos sensores, procesamiento de mensajes, visualización y graficación de datos. 
+
+\end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	CONTENIDO DE LA PPS  - AGRADECIMIENTOS
+%----------------------------------------------------------------------------------------
+
+\begin{acknowledgements}
+%\addchaptertocentry{\acknowledgementname} % Descomentando esta línea se puede agregar los agradecimientos al índice
+\vspace{1.5cm}
+
+A la municipalidad de Rosario por permitirme plasmar esta idea.
+
+A mis compañeros de la Dirección de Bioingeniería por permitirme tomar tiempo de trabajo para esta realización.
+
+Al Mg. Ing. Juan Salerno por la paciencia en el acompañamiento y revisión del trabajo.  
+
+\end{acknowledgements}
+
+%----------------------------------------------------------------------------------------
+%	LISTA DE CONTENIDOS/FIGURAS/TABLAS
+%----------------------------------------------------------------------------------------
+
+\tableofcontents % Prints the main table of contents
+
+\listoffigures % Prints the list of figures
+
+\listoftables % Prints the list of tables
+
+
+%----------------------------------------------------------------------------------------
+%	CONTENIDO DE LA PPS  - DEDICATORIA
+%----------------------------------------------------------------------------------------
+
+%\dedicatory{\textbf{Dedicado a... [OPCIONAL]}}  % escribir acá si se desea una dedicatoria
+
+%----------------------------------------------------------------------------------------
+%	CONTENIDO DE LA PPS - CAPÍTULOS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{thesis} % Return the page headers back to the "thesis" style
+
+% Incluir los capítulos como archivos separados desde la carpeta Chapters
+
+\include{Chapters/Chapter1}
+\include{Chapters/Chapter2} 
+\include{Chapters/Chapter3}
+\include{Chapters/Chapter4} 
+\include{Chapters/Chapter5} 
+\include{Chapters/Chapter6}
+
+%----------------------------------------------------------------------------------------
+%	CONTENIDO DE LA MEMORIA  - APÉNDICES
+%----------------------------------------------------------------------------------------
+
+\appendix % indicativo para indicarle a LaTeX los siguientes "capítulos" son apéndices
+
+% Incluir los apéndices de la memoria como archivos separadas desde la carpeta Appendices
+% Descomentar las líneas a medida que se escriben los apéndices
+
+%\include{Appendices/AppendixA}
+%\include{Appendices/AppendixB}
+%\include{Appendices/AppendixC}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\Urlmuskip=0mu plus 1mu\relax
+\raggedright
+\printbibliography[heading=bibintoc]
+%\option{biblatex}
+%----------------------------------------------------------------------------------------
+
+\end{document}  
+
