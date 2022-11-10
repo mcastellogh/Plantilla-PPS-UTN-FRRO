@@ -1,0 +1,412 @@
+%------------------------------------------------------------------------------------------------------
+% Para compilar la bibliografía
+%
+%    compilar 'pps.tex' using latex or pdflatex => this step will generate main.aux file
+%    compilar 'pps.aux' (NOT 'ref.bib') using bibtex
+%    compilar dos veces 'main.tex' using latex or pdflatex
+
+% Help by mcastello (https://tex.stackexchange.com/questions/166831/cant-open-reference-aux)
+%------------------------------------------------------------------------------------------------------
+
+
+@ARTICLE{ARTICLE:1,
+    AUTHOR="John Doe",
+    TITLE="Title",
+    JOURNAL="Journal",
+    YEAR="2017",
+}
+
+@BOOK{BOOK:1,
+    AUTHOR="John Doe",
+    TITLE="The Book without Title",
+    PUBLISHER="Dummy Publisher",
+    YEAR="2100",
+}
+
+@INBOOK{BOOK:2,
+    AUTHOR="John Doe",
+    TITLE="The Book without Title",
+    PUBLISHER="Dummy Publisher",
+    YEAR="2100",
+    PAGES="100-200",
+}
+@MISC{wep,
+	HOWPUBLISHED = "\url{https://en.wikipedia.org/wiki/Wired_Equivalent_Privacy}",
+	AUTHOR = "Wikipedia",
+	TITLE = "WEP",
+	MONTH = "03",
+	YEAR = "2021",
+	URLDATE = {2021-07-13}
+}
+@MISC{wpa,
+	HOWPUBLISHED = "\url{https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access}",
+	AUTHOR = "Wikipedia",
+	TITLE = "WPA",
+	MONTH = "03",
+	YEAR = "2021",
+	URLDATE = {2021-07-13}
+}
+@MISC{absolutmobile,
+	HOWPUBLISHED = "\url{http://absolutmobile.net/}",
+	AUTHOR = "Absolute Mobile",
+	TITLE = "Absolute Mobile",
+	MONTH = "03",
+	YEAR = "2021",
+	URLDATE = {2021-07-13}
+}
+@MISC{bemakoha,
+	HOWPUBLISHED = "\url{https://polotecnologico.net/blog/empresa/tbm-com-ar/}",
+	AUTHOR = "Bemakoha",
+	TITLE = "Bemakoha",
+	MONTH = "03",
+	YEAR = "2021",
+	URLDATE = {2021-07-13}
+}
+@MISC{honeywell,
+	HOWPUBLISHED = "\url{https://www.honeywell.com/us/en}",
+	AUTHOR = "Honeywell",
+	TITLE = "Honeywell",
+	MONTH = "03",
+	YEAR = "2021",
+	URLDATE = {2021-07-13}
+}
+@MISC{novus,
+	HOWPUBLISHED = "\url{https://www.novus.com.br/site/}",
+	AUTHOR = "Novus",
+	TITLE = "Novus International",
+	MONTH = "03",
+	YEAR = "2017",
+	URLDATE = {2021-07-13}
+}
+@MISC{testo,
+	HOWPUBLISHED = "\url{https://www.testo.com/es-AR}",
+	AUTHOR = "Testo",
+	TITLE = "Testo Argentina S.A.",
+	MONTH = "07",
+	YEAR = "2021",
+	URLDATE = {2021-07-13}
+}
+
+@MISC{celsius,
+	HOWPUBLISHED = "\url{https://celsius.live/}",
+	AUTHOR = "Patagon",
+	TITLE = "Celsius. Información que importa",
+	MONTH = "03",
+	YEAR = "2017",
+	URLDATE = {2021-07-13}
+}
+@MISC{anmat,
+	HOWPUBLISHED = "\url{http://www.anmat.gov.ar/boletin_anmat/BO/Disposicion_2069-2018.pdf}",
+	AUTHOR = "Anmat",
+	TITLE = "Buenas prácticas de distribución de medicamentos",
+	MONTH = "03",
+	YEAR = "2018",
+	URLDATE = {2021-07-13}
+}
+@MISC{cisco,
+	HOWPUBLISHED = "\url{https://www.cisco.com/c/dam/global/es_mx/solutions/executive/assets/pdf/internet-of-things-iot-ibsg.pdf}",
+	AUTHOR = "Dave Evans",
+	TITLE = "Internet de las cosas",
+	MONTH = "04",
+	YEAR = "2011",
+	URLDATE = {2021-07-13}
+}
+@MISC{eclipsemosquitto,
+	HOWPUBLISHED = "\url{https://mosquitto.org/}",
+	AUTHOR = "Eclipse Foundation",
+	TITLE = "Eclipse Mosquitto",
+	MONTH = "07",
+	YEAR = "2021",
+	URLDATE = {2021-07-12}
+}
+@MISC{docker,
+	HOWPUBLISHED = "\url{https://www.docker.com/}",
+	AUTHOR = "Docker",
+	TITLE = "Docker",
+	MONTH = "07",
+	YEAR = "2020",
+	URLDATE = {2021-07-12}
+}
+@MISC{node-red,
+	HOWPUBLISHED = "\url{https://nodered.org/}",
+	AUTHOR = "IBM",
+	TITLE = "Node-Red",
+	MONTH = "07",
+	YEAR = "2020",
+	URLDATE = {2021-07-12}
+}
+@MISC{TLS,
+	HOWPUBLISHED = "\url{https://datatracker.ietf.org/wg/tls/charter/}",
+	AUTHOR = "IETF Datatracke",
+	TITLE = "Transport Layer Security (tls)",
+	MONTH = "07",
+	YEAR = "2018",
+	URLDATE = {2021-06-12}
+}
+@MISC{JSON,
+	HOWPUBLISHED = "\url{https://www.json.org/json-es.html}",
+	AUTHOR = "json.org",
+	TITLE = "Introducing JSON",
+	MONTH = "06",
+	YEAR = "2021",
+	URLDATE = {2021-06-12}
+}
+@MISC{COAP,
+	HOWPUBLISHED = "\url{https://datatracker.ietf.org/doc/html/rfc7252}",
+	AUTHOR = "Internet Engineering Task Force",
+	TITLE = "The Constrained Application Protocol (CoAP)",
+	MONTH = "6",
+	YEAR = "2014",
+	URLDATE = {2021-06-12}
+}
+@MISC{selenium,
+	HOWPUBLISHED = "\url{https://www.selenium.dev/documentation/en/webdriver/}",
+	AUTHOR = "Selenium",
+	TITLE = "Selenium",
+	MONTH = "7",
+	YEAR = "2021",
+	URLDATE = {2021-06-12}
+}
+@MISC{burpsuite,
+	HOWPUBLISHED = "\url{https://portswigger.net/burp}",
+	AUTHOR = "Portswigger",
+	TITLE = "Burp Suite. Application security testing software",
+	MONTH = "7",
+	YEAR = "2021",
+	URLDATE = {2021-06-12}
+}
+@MISC{cassandra,
+	HOWPUBLISHED = "\url{https://cassandra.apache.org/}",
+	AUTHOR = "Apache Software Foundation",
+	TITLE = "Apache Cassandra",
+	MONTH = "7",
+	YEAR = "2021",
+	URLDATE = {2021-06-12}
+}
+@MISC{redis,
+	HOWPUBLISHED = "\url{https://redis.io}",
+	AUTHOR = "Redis",
+	TITLE = "Redis",
+	MONTH = "7",
+	YEAR = "2021",
+	URLDATE = {2021-06-12}
+}
+@MISC{kafka,
+	HOWPUBLISHED = "\url{https://kafka.apache.org/}",
+	AUTHOR = "Apache Software Foundation",
+	TITLE = "Apache Kafka",
+	MONTH = "7",
+	YEAR = "2021",
+	URLDATE = {2021-06-12}
+}
+@MISC{timescaledb,
+	HOWPUBLISHED = "\url{https://www.timescale.com/products}",
+	AUTHOR = "Timescale",
+	TITLE = "TimescaleDB",
+	MONTH = "7",
+	YEAR = "2021",
+	URLDATE = {2021-06-12}
+}
+@MISC{TCP,
+	HOWPUBLISHED = "\url{https://www.ietf.org/rfc/rfc793.txt}",
+	AUTHOR = "Information Sciences Institute",
+	TITLE = "Transmission Control Protocol",
+	MONTH = "9",
+	YEAR = "1981",
+	URLDATE = {2021-06-12}
+}
+@MISC{TCPIP,
+	HOWPUBLISHED = "\url{https://www.rfc-es.org/rfc/rfc1180-es.txt}",
+	AUTHOR = "T. Socolofsky - C. Kale",
+	TITLE = "Tutorial de TCP/IP",
+	MONTH = "1",
+	YEAR = "1991",
+	URLDATE = {2021-06-12}
+}
+@MISC{TBTLS,
+	HOWPUBLISHED = "\url{http://https://thingsboard.io/docs/user-guide/mqtt-over-ssl/}",
+	AUTHOR = "Thingsboard",
+	TITLE = "MQTT over SSL",
+	MONTH = "7",
+	YEAR = "2021",
+	URLDATE = {2021-06-07}
+}
+
+@MISC{TB,
+	HOWPUBLISHED = "\url{https://thingsboard.io}",
+	AUTHOR = "Thingsboard",
+	TITLE = "ThingsBoard Open-source IoT Platform",
+	MONTH = "7",
+	YEAR = "2021",
+	URLDATE = {2021-07-12}
+}
+@MISC{TBDeploy,
+	HOWPUBLISHED = "\url{https://thingsboard.io/docs/pe/reference/iot-platform-deployment-scenarios/}",
+	AUTHOR = "Thingsboard",
+	TITLE = "Deployment scenarios",
+	MONTH = "7",
+	YEAR = "2021",
+	URLDATE = {2021-06-07}
+}
+@MISC{bot,
+	HOWPUBLISHED = "\url{https://core.telegram.org/bots/}",
+	AUTHOR = "Telegram",
+	TITLE = "Bots: An introduction for developers",
+	MONTH = "7",
+	YEAR = "2021",
+	URLDATE = {2021-06-11}
+}
+@MISC{IEEE802,
+	HOWPUBLISHED = "\url{https://www.ieee802.org/11/}",
+	AUTHOR = "IEEE",
+	TITLE = "IEEE 802.11TM WIRELESS LOCAL AREA NETWORKS",
+	MONTH = "7",
+	YEAR = "2021",
+	URLDATE = {2021-06-11}
+}
+@MISC{sallenkey,
+	HOWPUBLISHED = "\url{https://qdoc.tips/analisis-de-la-arquitectura-sallen-key-pdf-free.html}",
+	AUTHOR = "Luis Enrique Avendaño",
+	TITLE = "Análisis de la arquitectura Sallen-Key",
+	MONTH = "1",
+	YEAR = "2015",
+	URLDATE = {2021-06-11}
+}
+@MISC{LM35,
+	HOWPUBLISHED = "\url{https://www.ti.com/lit/ds/symlink/lm35.pdf}",
+	AUTHOR = "Texas Instruments",
+	TITLE = "LM35 Precision Centigrade Temperature Sensors",
+	MONTH = "12",
+	YEAR = "2017",
+	URLDATE = {2021-07-13}
+}
+@MISC{TC1047,
+	HOWPUBLISHED = "\url{https://ww1.microchip.com/downloads/en/DeviceDoc/21498D.pdf}",
+	AUTHOR = "Microchip",
+	TITLE = "Precision Temperature to Voltage Converter",
+	MONTH = "7",
+	YEAR = "2012",
+	URLDATE = {2021-07-13}
+}
+@MISC{BMP280,
+	HOWPUBLISHED = "\url{https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf}",
+	AUTHOR = "Bosh",
+	TITLE = "Digital pressure sensor",
+	MONTH = "11",
+	YEAR = "2020",
+	URLDATE = {2021-07-19}
+}
+@MANUAL{dallas:ds18b20,
+    organization  = "Dallas Semiconductor",
+    title         = "DS18B20 Programmable Resolution 1-Wire Digital Thermometer",
+    number        = "050400",
+    year          =  2015,
+    note          = "Rev. 3"
+}
+
+@book{teton2003,
+	title={Gu{\'\i}a t{\'e}cnica de la acuariofilia},
+	author={Teton, J.},
+	isbn={9788489840249},
+	series={Gu{\'\i}as t{\'e}cnicas},
+	url={https://books.google.com.ar/books?id=6vrjovWkQicC},
+	year={2003},
+	publisher={Tursen S.A. - H. Blume}
+}
+
+@book{IEEE:citation,
+	author={IEEE},
+	title={IEEE Citation Reference},
+	edition={1},
+	url={http://www.ieee.org/documents/ieeecitationref.pdf},
+	urldate={2016-9-26},
+	publisher={IEEE Publications},
+	year={2016}
+}
+
+@misc{CIAA,
+	author = {{Proyecto CIAA}},
+	title = {Computadora Industrial Abierta Argentina},
+	url = {http://proyecto-ciaa.com.ar/devwiki/doku.php?id=start},
+	note = {Visitado el 2016-06-25},
+	year = {2014}
+}
+
+@MISC{lpcopen,
+   author =	{{NXP Semiconductors}},
+   title =	{LPCOPEN v2.16 Drivers, Middleware and Examples},
+   url =	{http://www.nxp.com/products/microcontrollers-and-processors/arm-processors/lpc-cortex-m-mcus/software-tools/lpcopen-libraries-and-examples:LPC-OPEN-LIBRARIES},
+   note =	{Disponible: 2016-06-25},
+ }
+ 
+@MISC{contrib,
+	author =	{{Savannah}},
+	title =	{lwIP - A Lightweight TCP/IP stack},
+	url =	{http://git.savannah.gnu.org/cgit/lwip/lwip-contrib.git},
+	note =	{Disponible: 2016-06-25},
+ }
+
+@MISC{webserver,
+	author =	{{Savannah}},
+	title =	{lwIP - Wiki - Sample Web Server},
+	url =	{ http://lwip.wikia.com/wiki/Sample_Web_Server},
+	note =	{Disponible: 2016-06-25}
+ } 
+ 
+
+
+@MISC{sensor_pH,
+   author =	{dfRobot},
+   title =	{PH meter(SKU: SEN0161)},
+   url =	{http://www.dfrobot.com/wiki/index.php?title=PH_meter(SKU:_SEN0161)},
+   note =	{Disponible: 2016-06-25},
+}
+
+@misc{rfc2616,
+	series =	{Request for Comments},
+	number=		2616,
+	howpublished=	{RFC 2616},
+	publisher =	{RFC Editor},
+	doi =		{10.17487/rfc2616},
+	url =		{https://rfc-editor.org/rfc/rfc2616.txt},
+	author=		{Jeffrey Mogul and Larry M Masinter and Roy T. Fielding and Jim Gettys and Paul J. Leach and Tim Berners-Lee},
+	title=		{{Hypertext Transfer Protocol -- HTTP/1.1}},
+	pagetotal =	176,
+	year =		2013,
+	month =		3,
+	day =		2,
+	abstract =	{HTTP has been in use by the World-Wide Web global information initiative since 1990. This specification defines the protocol referred to as &quot;HTTP/1.1&quot;, and is an update to RFC 2068. [STANDARDS-TRACK]},
+}
+
+@misc{rfc3875,
+	series =	{Request for Comments},
+	number=		3875,
+	howpublished=	{RFC 3875},
+	publisher =	{RFC Editor},
+	doi =		{10.17487/rfc3875},
+	url =		{https://rfc-editor.org/rfc/rfc3875.txt},
+	author=		{David Robinson},
+	title=		{{The Common Gateway Interface (CGI) Version 1.1}},
+	pagetotal =	36,
+	year =		2013,
+	month =		mar,
+	day =		20,
+	abstract =	{The Common Gateway Interface (CGI) is a simple interface for running external programs, software or gateways under an information server in a platform-independent manner. Currently, the supported information servers are HTTP servers.},
+}
+
+@misc{rfc7540,
+	series =	{Request for Comments},
+	number=		7540,
+	howpublished=	{RFC 7540},
+	publisher =	{RFC Editor},
+	doi =		{10.17487/rfc7540},
+	url =		{https://rfc-editor.org/rfc/rfc7540.txt},
+	author=		{Mike Belshe and Roberto Peon and Martin Thomson},
+	title=		{{Hypertext Transfer Protocol Version 2 (HTTP/2)}},
+	pagetotal =	96,
+	year =		2015,
+	month =		nov,
+	day =		18,
+	abstract =	{This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP), referred to as HTTP version 2 (HTTP/2). HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection. It also introduces unsolicited push of representations from servers to clients.},
+}
+

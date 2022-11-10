@@ -1,0 +1,184 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{cisco}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=ED}{%
+         family={Evans},
+         familyi={E\bibinitperiod},
+         given={Dave},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ED1}
+    \strng{fullhash}{ED1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://www.cisco.com/c/dam/global/es_mx/solutions/executive/assets/pdf/internet-of-things-iot-ibsg.pdf}}
+    \field{title}{Internet de las cosas}
+    \field{month}{04}
+    \field{year}{2011}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{testo}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={Testo},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://www.testo.com/es-AR}}
+    \field{title}{Testo Argentina S.A.}
+    \field{month}{07}
+    \field{year}{2021}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{novus}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={Novus},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://www.novus.com.br/site/}}
+    \field{title}{Novus International}
+    \field{month}{03}
+    \field{year}{2017}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{honeywell}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=H}{%
+         family={Honeywell},
+         familyi={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{H1}
+    \strng{fullhash}{H1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://www.honeywell.com/us/en}}
+    \field{title}{Honeywell}
+    \field{month}{03}
+    \field{year}{2021}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{absolutmobile}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=MA}{%
+         family={Mobile},
+         familyi={M\bibinitperiod},
+         given={Absolute},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MA1}
+    \strng{fullhash}{MA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{http://absolutmobile.net/}}
+    \field{title}{Absolute Mobile}
+    \field{month}{03}
+    \field{year}{2021}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{bemakoha}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={Bemakoha},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://polotecnologico.net/blog/empresa/tbm-com-ar/}}
+    \field{title}{Bemakoha}
+    \field{month}{03}
+    \field{year}{2021}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{celsius}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={Patagon},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://celsius.live/}}
+    \field{title}{Celsius. Información que importa}
+    \field{month}{03}
+    \field{year}{2017}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{anmat}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Anmat},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{http://www.anmat.gov.ar/boletin_anmat/BO/Disposicion_2069-2018.pdf}}
+    \field{title}{Buenas prácticas de distribución de medicamentos}
+    \field{month}{03}
+    \field{year}{2018}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2021}
+  \endentry
+\enddatalist
+\endinput
