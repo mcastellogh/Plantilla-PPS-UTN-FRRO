@@ -4,6 +4,14 @@
 # Tabla de contenidos
 - [<center>Plantilla para PPS UTN-FRRO</center>](#centerplantilla-para-pps-utn-frrocenter)
 - [Tabla de contenidos](#tabla-de-contenidos)
+- [Descripción de los directorios y archivos de este repositorio](#descripción-de-los-directorios-y-archivos-de-este-repositorio)
+  - [Directorio ```Appendices```](#directorio-appendices)
+  - [Directorio ```Chapters```](#directorio-chapters)
+  - [Directorio ```Figures```](#directorio-figures)
+  - [Archivo ```referencias.bib```](#archivo-referenciasbib)
+  - [Archivo ```MastersDoctoralThesis.cls```](#archivo-mastersdoctoralthesiscls)
+  - [Archivo ```pps.pdf```](#archivo-ppspdf)
+  - [Archivo ```pps.tex```](#archivo-ppstex)
 - [Aspectos relacionados con el contenido](#aspectos-relacionados-con-el-contenido)
 - [Informe final del alumno sobre la PPS.](#informe-final-del-alumno-sobre-la-pps)
 - [Explicación detallada](#explicación-detallada)
@@ -18,6 +26,41 @@
     - [Anexos](#anexos)
     - [Otros aspectos a considerar:](#otros-aspectos-a-considerar)
 - [Ley Nº11.723](#ley-nº11723)
+
+# Descripción de los directorios y archivos de este repositorio
+
+Esta plantilla se distribuye como un único archivo .zip que se puede descomprimir en varios archivos y directorios.
+
+## Directorio ```Appendices```
+Este es el directorio donde se deben poner los apéndices. Cada apéndice debe ir en su propio archivo .tex. 
+
+A modo de ejemplo, se incluye en el apéndice A una guía rápida para los comandos más utilizados y en el apéndice B una explicación más detallada de LaTex.
+
+## Directorio ```Chapters```
+Este es el directorio donde se deben poner los capítulos de la pps. Cada capítulo debe ir un su propio archivo .tex por separado. Se ofrece por  defecto, la siguiente estructura de capítulos y se recomienda su utilización dentro de lo posible:
+- Capítulo 1: Introducción general.
+- Capítulo 2: Marco de referencia.
+- Capítulo 3: Ejecución del plan de trabajo.
+- Capítulo 4: Resultados y Conclusiones.
+- Capítulo 5: Vinculación del proyecto con las materias de la carrera.
+- Capítulo 6: Lecciones aprendidas y recomendaciones.
+  
+Esta estructura de capítulos es la que se recomienda para las PPS de la carrera.
+
+## Directorio ```Figures```
+Este directoriocontiene todas las figuras de la PPS. Estas son las versiones finales de las imágenes que van a ser incluidas en la PPS. Pueden ser imágenes en formato raster 1 como .png, .jpg o en formato vectoriales como .pdf, .ps. Se debe notar que utilizar imágenes vectoriales disminuye notablemente el peso del documento final y acelera el tiempo de compilación por lo que es recomendable su utilización siempre que sea posible.
+
+## Archivo ```referencias.bib```
+Este es un archivo importante que contiene toda la información de referencias bibliográficas que se utilizarán para las citas en la pps en conjunto con BibTeX.  Usted puede escribir las entradas bibliográficas en forma manual, aunque existen también programas de gestión de referencias que facilitan la creación y gestión  de las referencias y permiten exportarlas en formato BibTeX. También hay disponibles sitios web como books.google.com que permiten obtener toda la información  necesaria para una cita en formato BibTeX.
+
+## Archivo ```MastersDoctoralThesis.cls```
+Este es un archivo importante. Es el archivo con la clase que le informa a LATEX cómo debe dar formato a la pps. El usuario de la plantilla no debería necesitar  modificar nada de este archivo. 
+
+## Archivo ```pps.pdf```
+Esta es su pps con una tipografía bellamente compuesta (en formato de archivo PDF) creado por LaTex. Se distribuye con la plantilla y después de compilar por primera vez sin hacer ningún cambio se debería obtener una versión idéntica a este documento.
+
+## Archivo ```pps.tex```
+Este es un archivo importante. Este es el archivo que tiene que compilar LaTex para producir la pps como un archivo PDF. Contiene un marco de trabajo y estructuras que le indican a LaTex cómo diagramar la pps. Está altamente comentado para que se pueda entender qué es lo que realiza cada línea de código y por qué está incluida en ese lugar. En este archivo se debe completar la información personalizada de la primera sección.
 
 # Aspectos relacionados con el contenido
 
